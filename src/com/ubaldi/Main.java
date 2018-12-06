@@ -52,9 +52,19 @@ public class Main {
         seconda.num = 13;
         seconda.den = 4;
 
+        Frazione terza = new Frazione();
+        terza.num = 9;
+        terza.den = 15;
+
+        Frazione quarta = new Frazione();
+        quarta.num = 15;
+        quarta.den = 9;
+
         //Stampo frazioni
         prima.stampaSuConsole();
         seconda.stampaSuConsole();
+        terza.stampaSuConsole();
+        quarta.stampaSuConsole();
 
     }
 }
