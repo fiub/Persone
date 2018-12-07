@@ -30,15 +30,4 @@ public class Frazione {
         out.println("La frazione si riduce a: " +  num + "/" + den);
     }
 
-    /*
-public void stampaSuConsole() {
-
-out.println("------------");
-out.println(num + "/" + den + " si riduce a: " +  num + "/" + den);
-out.println("mcd = " + mcd);
-out.println("------------");
-
-}
-*/
-
 }
