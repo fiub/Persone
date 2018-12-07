@@ -71,9 +71,13 @@ public class Main {
         */
 
         prima.reduceFraction();
+        prima.stampaSuConsole();
         seconda.reduceFraction();
+        seconda.stampaSuConsole();
         terza.reduceFraction();
+        terza.stampaSuConsole();
         quarta.reduceFraction();
+        quarta.stampaSuConsole();
 
     }
 }

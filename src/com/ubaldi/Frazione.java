@@ -26,8 +26,13 @@ public class Frazione {
         int mcd = getCalcolaMCD(num, den);
         num = num / mcd;
         den = den / mcd;
+    }
+
+    public void stampaSuConsole() {
+
         out.println("------------");
         out.println("La frazione si riduce a: " +  num + "/" + den);
+
     }
 
 }
