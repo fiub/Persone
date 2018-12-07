@@ -2,6 +2,7 @@ package com.ubaldi;
 
 import java.time.LocalDate;
 import java.time.Month;
+import static java.lang.System.out;
 
 public class Main {
 
@@ -60,11 +61,19 @@ public class Main {
         quarta.num = 15;
         quarta.den = 9;
 
-        //Stampo frazioni
+
+        /*
+        Stampo frazioni
         prima.stampaSuConsole();
         seconda.stampaSuConsole();
         terza.stampaSuConsole();
         quarta.stampaSuConsole();
+        */
+
+        prima.reduceFraction();
+        seconda.reduceFraction();
+        terza.reduceFraction();
+        quarta.reduceFraction();
 
     }
 }
