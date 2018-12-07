@@ -26,7 +26,6 @@ public class Frazione {
         int mcd = getCalcolaMCD(num, den);
         num = num / mcd;
         den = den / mcd;
-        stampaSuConsole();
     }
 
     public void stampaSuConsole() {
