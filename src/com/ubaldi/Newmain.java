@@ -23,6 +23,7 @@ public class Newmain {
     public int c = 14;
     public int d = 15;
     public int e = 3;
+    public int f = 0;
 
     public void run (String[] args) throws Exception
     {
@@ -32,18 +33,15 @@ public class Newmain {
         this.c = c;
         this.d = d;
         this.e = e;
-        Frazione first = new Frazione();
-        Frazione second = new Frazione();
-        Frazione third = new Frazione();
-        Frazione fourth = new Frazione();
-        first.num = a;
-        first.den = b;
-        second.num = c;
-        second.den = d;
-        third.num = e;
-        third.den = a;
-        fourth.num = b;
-        fourth.den = c;
+        this.f = f;
+        Frazione first = new Frazione(a,b);
+        Frazione second = new Frazione(c,d);
+        Frazione third = new Frazione(e,a);
+        Frazione fourth = new Frazione(b,c);
+        Frazione fifth = new Frazione(e,f);
+        Frazione sixth = new Frazione();
+
+
         first.stampaSuConsole();
         first.reduceFraction();
         first.stampaSuConsole();
@@ -56,6 +54,12 @@ public class Newmain {
         fourth.stampaSuConsole();
         fourth.reduceFraction();
         fourth.stampaSuConsole();
+        fifth.stampaSuConsole();
+        fifth.reduceFraction();
+        fifth.stampaSuConsole();
+        sixth.stampaSuConsole();
+        sixth.reduceFraction();
+        sixth.stampaSuConsole();
 
 
     }

@@ -43,7 +43,8 @@ public class Main {
         dany_p.stampaSuConsole();
         pippo.stampaSuConsole();
 
-        //Frazioni
+        //Frazioni - commento se no mi becca questo
+        /*
         Frazione prima;
         prima = new Frazione();
         prima.num = 12;
@@ -60,6 +61,7 @@ public class Main {
         Frazione quarta = new Frazione();
         quarta.num = 15;
         quarta.den = 9;
+        */
 
 
         /*
@@ -70,6 +72,8 @@ public class Main {
         quarta.stampaSuConsole();
         */
 
+        /*
+
         prima.reduceFraction();
         prima.stampaSuConsole();
         seconda.reduceFraction();
@@ -78,6 +82,7 @@ public class Main {
         terza.stampaSuConsole();
         quarta.reduceFraction();
         quarta.stampaSuConsole();
+        */
 
     }
 }

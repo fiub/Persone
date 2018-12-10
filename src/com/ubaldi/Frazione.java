@@ -5,8 +5,23 @@ import org.jetbrains.annotations.Contract;
 import static java.lang.System.out;
 
 public class Frazione {
-    public int num;
-    public int den;
+
+    //constructor with default values
+    public Frazione() {
+        this(0, 1);
+    }
+
+    //constructor
+    public Frazione(int num, int den) {
+        this.num = num;
+        this.den = den;
+    }
+
+
+    //instance var
+    private int num;
+    private int den;
+
 
     @Contract(pure = true)
     private int getCalcolaMCD(int a, int b) {
