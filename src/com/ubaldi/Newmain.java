@@ -1,5 +1,7 @@
 package com.ubaldi;
 
+//https://stackoverflow.com/questions/2559527/non-static-variable-cannot-be-referenced-from-a-static-context
+
 public class Newmain {
 
     public static void main (String[] args)
@@ -15,7 +17,7 @@ public class Newmain {
         }
     }
 
-// instance variables here
+// instance variables
     public int a = 21;
     public int b = 7;
     public int c = 14;
@@ -24,7 +26,7 @@ public class Newmain {
 
     public void run (String[] args) throws Exception
     {
-        // put your code here
+        // code
         this.a = a;
         this.b = b;
         this.c = c;
