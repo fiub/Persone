@@ -46,6 +46,9 @@ public class Frazione {
     public void stampaSuConsole() {
 
         out.println("------------");
+        if (den == 0){
+            out.println("WARNING! il denominatore è " + den + " [ZERO]:");
+        }
         out.println("La frazione si riduce a: " +  num + "/" + den);
 
     }
