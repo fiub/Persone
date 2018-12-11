@@ -43,22 +43,22 @@ public class Newmain {
 
 
         first.stampaSuConsole();
-        first.reduceFraction();
+        //first.reduceFraction();
         first.stampaSuConsole();
         second.stampaSuConsole();
-        second.reduceFraction();
+        //second.reduceFraction();
         second.stampaSuConsole();
         third.stampaSuConsole();
-        third.reduceFraction();
+        //third.reduceFraction();
         third.stampaSuConsole();
         fourth.stampaSuConsole();
-        fourth.reduceFraction();
+        //fourth.reduceFraction();
         fourth.stampaSuConsole();
         fifth.stampaSuConsole();
-        fifth.reduceFraction();
+        //fifth.reduceFraction();
         fifth.stampaSuConsole();
         sixth.stampaSuConsole();
-        sixth.reduceFraction();
+        //sixth.reduceFraction();
         sixth.stampaSuConsole();
 
 

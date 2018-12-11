@@ -15,6 +15,7 @@ public class Frazione {
     public Frazione(int num, int den) {
         this.num = num;
         this.den = den;
+        reduceFraction();
     }
 
 
@@ -47,9 +48,9 @@ public class Frazione {
 
         out.println("------------");
         if (den == 0){
-            out.println("WARNING! il denominatore è " + den + " [ZERO]:");
+            out.println("WARNING! il denominatore è " + this.den + " [ZERO]:");
         }
-        out.println("La frazione si riduce a: " +  num + "/" + den);
+        out.println("La frazione si riduce a: " +  this.num + "/" + this.den);
 
     }
 
