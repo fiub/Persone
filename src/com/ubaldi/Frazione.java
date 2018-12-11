@@ -36,7 +36,7 @@ public class Frazione {
         return a; //... e quando il resto n-esimo è 0, l'mcd è il resto n-1esimo
     }
 
-    public void reduceFraction(){
+    private void reduceFraction(){ //non ha più senso chiamarla da fuori essendo chiamata dal costruttore
         this.num = num;
         this.den = den;
         int mcd = getCalcolaMCD(num, den);
