@@ -11,11 +11,11 @@ public class Frazione {
         this(0, 1);
     }
 
-    //constructor
+    //constructor https://www.guru99.com/java-constructors.html
     public Frazione(int num, int den) {
         this.num = num;
         this.den = den;
-        reduceFraction();
+        reduceFraction(); //lo chiamo da lì per avere l'incapsulamento
     }
 
 
