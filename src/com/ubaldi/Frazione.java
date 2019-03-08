@@ -64,5 +64,17 @@ public class Frazione {
         return den;
     }
 
+    /**
+     * fraction1 + fraction2
+     */
+    public int sum2FractionsN(int n1, int d1, int n2, int d2){
+        int n0 = (d2 * n1) + (d1 * n2);
+        return n0;
+    }
+    public int sum2FractionsD(int d1, int d2){
+        int d0 = d1*d2;
+        return d0;
+    }
+
 
 }

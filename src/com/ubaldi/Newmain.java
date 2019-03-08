@@ -66,6 +66,12 @@ public class Newmain {
         int n2 = second.getNumerator();
         int d2 = second.getDenominator();
 
+        Frazione somma = new Frazione();
+        int n0 = somma.sum2FractionsN(n1,d1,n2,d2);
+        int d0 = somma.sum2FractionsD(d1,d2);
+
+        somma.stampaSuConsole();
+
 
     }
 }
