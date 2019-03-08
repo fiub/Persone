@@ -54,4 +54,15 @@ public class Frazione {
 
     }
 
+    //accessors methods: An accessor method is used to return the value of a private field
+
+    public int getNumerator(){
+        return num;
+    }
+
+    public int getDenominator(){
+        return den;
+    }
+
+
 }

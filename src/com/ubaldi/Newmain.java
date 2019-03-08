@@ -61,6 +61,11 @@ public class Newmain {
         //sixth.reduceFraction();
         sixth.stampaSuConsole();
 
+        int n1 = first.getNumerator();
+        int d1 = first.getDenominator();
+        int n2 = second.getNumerator();
+        int d2 = second.getDenominator();
+
 
     }
 }
