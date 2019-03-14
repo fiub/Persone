@@ -1,6 +1,7 @@
 package com.ubaldi;
 
 //https://stackoverflow.com/questions/2559527/non-static-variable-cannot-be-referenced-from-a-static-context
+import static java.lang.System.out;
 
 public class Newmain {
 
@@ -18,10 +19,10 @@ public class Newmain {
     }
 
 // instance variables
-    public int a = 21;
-    public int b = 7;
-    public int c = 14;
-    public int d = 15;
+    public int a = 3;
+    public int b = 4;
+    public int c = 7;
+    public int d = 4;
     public int e = 3;
     public int f = 0;
 
@@ -41,37 +42,29 @@ public class Newmain {
         Frazione fifth = new Frazione(e,f);
         Frazione sixth = new Frazione();
 
-
-        first.stampaSuConsole();
-        //first.reduceFraction();
+/*
         first.stampaSuConsole();
         second.stampaSuConsole();
-        //second.reduceFraction();
-        second.stampaSuConsole();
-        third.stampaSuConsole();
-        //third.reduceFraction();
         third.stampaSuConsole();
         fourth.stampaSuConsole();
-        //fourth.reduceFraction();
-        fourth.stampaSuConsole();
         fifth.stampaSuConsole();
-        //fifth.reduceFraction();
-        fifth.stampaSuConsole();
-        sixth.stampaSuConsole();
-        //sixth.reduceFraction();
-        sixth.stampaSuConsole();
+        sixth.stampaSuConsole();*/
 
         int n1 = first.getNumerator();
         int d1 = first.getDenominator();
+        out.println("il get sulla prima frazione mi dà " +  n1 + "/" + d1);
+
         int n2 = second.getNumerator();
         int d2 = second.getDenominator();
+        out.println("il get sulla seconda frazione mi dà " +  n2 + "/" + d2);
+
 
         Frazione somma = new Frazione();
         int n0 = somma.sum2FractionsN(n1,d1,n2,d2);
         int d0 = somma.sum2FractionsD(d1,d2);
-
-        somma.stampaSuConsole();
-
+        out.println("il calcolo della somma non ridotto mi dà " +  n0 + "/" + d0);
+        Frazione somma1 = new Frazione(n0,d0);
+        somma1.stampaSuConsole();
 
     }
 }
